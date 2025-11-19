@@ -1,0 +1,22 @@
+{
+  "name": "russia-rpg",
+  "version": "1.0.0",
+  "description": "RPG игра о становлении России",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": ["rpg", "russia", "game"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
